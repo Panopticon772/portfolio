@@ -10,79 +10,87 @@
     <meta name="" content="">
 
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Roboto&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
     <nav id="navbar">
-        <header>
-            <h1>Portfolio</h1>
-        </header>
-        <ul>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-            <li><a href="https://github.com/Panopticon772" target="_blank" id="profile-link">Profile</a></li>
+        <ul id="nav-main">
+            <li><a class="nav-links" href="#">About</a></li>
+            <li><a class="nav-links" href="#my-work">My Work</a></li>
+            <li><a class="nav-links" href="#contact">Contact</a></li>
         </ul>
     </nav>
     <main>
         <section id="welcome-section">
-            <h1>Hello, my name's Christopher and I am an aspiring web developer.</h1>
-            <p>I started learning to code with JavaScript and have been delving into other languages as well such as
-                Python and PowerShell.</p>
+            <h1 id="welcome-section-h1">Hello! My name's Chris and I am an aspiring <span
+                    class="welcome-text-special">web developer</span>.
+            </h1>
+            <p id="welcome-section-p">I intially learned to code with JavaScript and from there I eventually branched
+                out into other
+                languages such as Python and PowerShell. Everyday I'm motivated to continue coding, in hopes of one day
+                landing a job as a professional developer.</p>
         </section>
 
         <!-- JEFF BUCKLEY TRIBUTE -->
         <section id="projects">
-            <div class="project-tile">
-                <figure>
-                    <img class="project-img" src="https://jeffbuckley.com/wp-content/uploads/2015/05/mikio-c2.jpg"
-                        alt="Picture of Jeff Buckley">
-                    <figcaption><a class="fig-text" href="https://github.com/Panopticon772/tribute"
-                            target="_blank">Tribute to Jeff
-                            Buckley</a></figcaption>
-                </figure>
+            <h1 id="my-work">My Work</h1>
+            <div id="tribute-to-jeff-buckley" class="project-tile">
+                <a href="https://github.com/Panopticon772/tribute" target="_blank">
+                    <figure>
+                        <img class="project-img"
+                            src="https://www.thisdayinmusic.com/wp-content/uploads/2018/05/grace.jpg"
+                            alt="Picture of Jeff Buckley">
+                        <figcaption class="fig-text">Tribute to Jeff Buckley</figcaption>
+                    </figure>
+                </a>
             </div>
 
             <!-- ATLANTA PET RESCUE -->
             <div class="project-tile">
-                <figure>
-                    <img class="project-img"
-                        src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80">
-                    <figcaption><a class="fig-text" href="https://github.com/Panopticon772/survey"
-                            target="_blank">Atlanta Pet Rescue
-                            Survey</a></figcaption>
-                </figure>
+                <a href="https://github.com/Panopticon772/survey" target="_blank">
+                    <figure>
+                        <img class="project-img"
+                            src="https://esadoctors.com/wp-content/uploads/2016/08/30-dogs-1024x1024.jpg">
+                        <figcaption class="fig-text">Atlanta Pet Rescue Survey Form</figcaption>
+                    </figure>
+                </a>
             </div>
 
             <!-- SKY CITY GUITARS -->
             <div class="project-tile">
-                <figure>
-                    <img class="project-img"
-                        src="https://images.unsplash.com/photo-1542360239018-6ae30eb8f579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60">
-                    <figcaption><a class="fig-text" href="https://github.com/Panopticon772/product" target="_blank">Sky
-                            City Guitars</a>
-                    </figcaption>
-                </figure>
+                <a href="https://github.com/Panopticon772/product" target="_blank">
+                    <figure id="tribute">
+                        <img class="project-img"
+                            src="https://images.reverb.com/image/upload/s--DnvuxqHC--/f_auto,t_supersize/v1599000784/czv7eggvpldymwtrlopj.jpg">
+                        <figcaption class="fig-text">Sky City Guitars</figcaption>
+                    </figure>
+                </a>
             </div>
 
             <!-- POWERSHELL DOCUMENTATION -->
             <div class="project-tile">
-                <figure>
-                    <img class="project-img"
-                        src="https://tr4.cbsistatic.com/hub/i/r/2020/09/08/e593903d-d564-439f-9f40-fe2d481b03da/thumbnail/770x578/e330ceedd2f021c5856fcd490560aa71/powershell.jpg">
-                    <figcaption><a class="fig-text" href="https://github.com/Panopticon772/technical_docs"
-                            target="_blank">PowerShell
-                            Technical
-                            Docs</a></figcaption>
-                </figure>
+                <a href="https://github.com/Panopticon772/technical_docs" target="_blank">
+                    <figure>
+                        <img class="project-img"
+                            src="https://res.cloudinary.com/dtbudl0yx/image/fetch/w_2000,f_auto,q_auto,c_fit/https://adamtheautomator.com/wp-content/uploads/2019/08/powershell-1-768x767.png">
+                        <figcaption class="fig-text">PowerShell Technical Docs</figcaption>
+                    </figure>
+                </a>
             </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h1>Contact Me</h1>
+            <a id="profile-link" href="https://github.com/Panopticon772" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/in/christopher-stepowski-a3a87911b/" target="_blank">LinkedIn</a>
         </section>
     </main>
     <footer>
-        Coded by Chris Stepowski
+        <p>&copy; Chris Stepowski</p>
     </footer>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
