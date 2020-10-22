@@ -19,6 +19,8 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
     text-shadow: 2px 2px 3px black;
+    position: fixed;
+    width: 100%;
 }
 
 #nav-main {
@@ -46,8 +48,10 @@ li {
 #welcome-section {
     font-size: 3.0em;
     background-color: rgb(10, 10, 10);
-    padding: 2.25em;
+    padding: 5.0em 2.25em 2.25em 2.25em;
     text-align: center;
+    height: 100vh;
+    width: 100vw;
 }
 
 #welcome-section-h1 {
